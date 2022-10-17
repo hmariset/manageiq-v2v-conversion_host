@@ -2,6 +2,8 @@ module github.com/ManageIQ/manageiq-v2v-conversion_host/vm-import-provider
 
 go 1.15
 
+replace github.com/ManageIQ/manageiq-v2v-conversion_host => github.com/hmariset/manageiq-v2v-conversion_host
+
 require (
 	cloud.google.com/go v0.36.0 // indirect
 	github.com/appscode/jsonpatch v0.0.0-20190108182946-7c0e3b262f30 // indirect
